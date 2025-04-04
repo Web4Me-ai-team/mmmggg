@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/be6d9fdd26.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Arbutus Slab' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <nav class="menu-bar">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="#" onclick="showSection('profile')">Home</a></li>
+                    <li><a href="#" onclick="showSection('education')">Education</a></li>
+                    <li><a href="#" onclick="showSection('work')">Work Experience</a></li>
+                    <li><a href="#" onclick="showSection('skills')">Skills&Hobbies</a></li>
+                    <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <div class="intro-text">
+                <p>H<span id="typing-text"></span></p>
+                <h1>MMMGGG</h1>
+            </div>
+            <img src="profile/1.svg" alt="User" style="width: 250px; height: auto; max-width: 100%; border-radius: 50%;">
+            <div class="profile-card">
+                <p class="summary">
+                    Joe P. Samples is an accomplished researcher with extensive experience in neurobiology and cell biology. He has a strong background in research and teaching, with a focus on learning and memory, cell adhesion, and cancer biology. Joe has contributed to significant research projects and has been recognized with multiple awards and fellowships.
+                </p>
+            </div>
+        </section>
+        <div class="contacts">
+            <a href="mailto:mmmggg@utsa.edu" aria-label="Email"><i class="fa-solid fa-envelope fa-lg"></i></a>
+            <a href="tel:+12105552225" aria-label="Phone"><i class="fa-solid fa-phone fa-lg"></i></a>
+        </div>
+        <section id="education" class="hidden">
+            <h2 class="section-title">Education</h2>
+            <div class="content-container">
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">1996</div>
+                        <div class="timeline-content">
+                            <h3>Postdoc. in Cell & Structural Biology</h3>
+                            <span>University of Texas Health Science Center at San Antonio<br></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1995</div>
+                        <div class="timeline-content">
+                            <h3>Ph.D. in Neuroscience Interdisciplinary Training Program</h3>
+                            <span>Tulane University, New Orleans, LA<br></span>
+                            <p><br>
+                                <strong>Thesis:</strong> Induced Regeneration and Gene Expression in the Chick Limb Bud – Examined developmental phenomena and stage-related barriers to regeneration in higher vertebrates, focusing on Msx-1 and HoxD homeobox expression.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1992</div>
+                        <div class="timeline-content">
+                            <h3>M.S. in Biomedical Engineering</h3>
+                            <span>Tulane University, New Orleans, LA<br></span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1986</div>
+                        <div class="timeline-content">
+                            <h3>B.S. in Psychobiology</h3>
+                            <span>University of Texas at San Antonio<br></span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="work" class="hidden">
+            <h2>Work Experience</h2>
+            <div class="content-container">
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2001-2003</div>
+                        <div class="timeline-content">
+                            <h3>Undergraduate Research Assistant</h3>
+                            <span>University of Texas at San Antonio<br></span>
+                            <p>MBRS-RISE Research Training Program, Center for Research and Training in the Sciences</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1999-2001</div>
+                        <div class="timeline-content">
+                            <h3>Teaching Assistant, Introductory Biology Laboratory</h3>
+                            <span>University of Texas at San Antonio<br></span>
+                            <p>Department of Biology</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1997-1999</div>
+                        <div class="timeline-content">
+                            <h3>Undergraduate Research Assistant</h3>
+                            <span>University of Texas at San Antonio<br></span>
+                            <p>MARC U*STAR Honors Research Training Program, Center for Research and Training in the Sciences</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2000</div>
+                        <div class="timeline-content">
+                            <h3>Research Assistant</h3>
+                            <span>University of California, Los Angeles<br></span>
+                            <p>UCLA Summer AWU-DOE Summer Research Program, Department of Neurobiology</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1994-1995</div>
+                        <div class="timeline-content">
+                            <h3>Research Assistant</h3>
+                            <span>University of Texas Health Science Center at San Antonio<br></span>
+                            <p>Department of Cell and Structural Biology</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">1992-1993</div>
+                        <div class="timeline-content">
+                            <h3>Quality Assurance Analyst</h3>
+                            <span>DGMMM Laboratories<br></span>
+                            <p>Quality Assurance Department</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="hidden">
+            <h2>Skills & Hobbies</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <i class="fa-solid fa-code"></i>
+                        <span>RT-PCR</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-database"></i>
+                        <span>Confocal Microscopy</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Hippocampal Field Potential Recording</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Genomic and plasmid DNA, and RNA isolation and purification</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Western Blotting</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Morris Maze – Behavioral testing</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Tissue Culture – Primary and Cell Line</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Agarose and acrylamide gel electrophoresis</span>
+                    </div>
+                    <div class="skill">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>RNase protection assays</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="hidden">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <!-- No projects data available -->
+            </div>
+        </section>
+    </main>
+
+    <button class="theme-toggle" onclick="toggleTheme()"><i class="fa-solid fa-moon fa-lg"></i></button>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            body.classList.toggle('dark');
+
+            const button = document.querySelector('.theme-toggle');
+            button.innerHTML = body.classList.contains('dark')
+                ? '<i class="fa-solid fa-sun fa-lg"></i>'
+                : '<i class="fa-solid fa-moon fa-lg"></i>';
+        }
+
+        function showSection(id) {
+            document.querySelectorAll('main section').forEach(s => s.classList.add('hidden'));
+            document.getElementById(id).classList.remove('hidden');
+        }
+
+        // Default section on page load
+        showSection('profile');
+        const text = "ello, I'm";
+        const typingText = document.getElementById('typing-text');
+        let index = 0;
+        let isDeleting = false;
+
+        function typeEffect() {
+            if (isDeleting) {
+                typingText.innerText = text.substring(0, index--);
+            } else {
+                typingText.innerText = text.substring(0, index++);
+            }
+            let speed = isDeleting ? 75 : 150;
+            if (!isDeleting && index === text.length + 1) {
+                speed = 1200; // Pause at full text before deleting
+                isDeleting = true;
+            } else if (isDeleting && index === 0) {
+                isDeleting = false;
+                speed = 500; // Pause before typing again
+            }
+            setTimeout(typeEffect, speed);
+        }
+        typeEffect();
+
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            item.addEventListener('mouseenter', function () {
+                document.querySelectorAll('.timeline-item.active').forEach(activeItem => {
+                    if (activeItem !== this) {
+                        activeItem.classList.remove('active');
+                    }
+                });
+                this.classList.add('active');
+            });
+
+            item.addEventListener('click', function () {
+                document.querySelectorAll('.timeline-item').forEach(i => i.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+    </script>
+</body>
+</html>
